@@ -7,4 +7,4 @@ Se consideran conceptos como:
 - Paginación
 - Uso de parametros y header con Metodo POST
 - Coleccion de datos en paralelo
-- Pyspark dataFrame y Table en Catalog
+- Pyspark dataFrame y Table en Unity Catalog
