@@ -51,14 +51,14 @@ class APIClient:
             raise
         
 # Example
-poke_client = APIClient('https://pokeapi.co/api/v2')
+#poke_client = APIClient('https://pokeapi.co/api/v2')
 
-params ={
-    'offset': 0,
-    'limit': 20
-}
+#params ={
+#     'offset': 0,
+#     'limit': 20
+# }
 # GET request
-poke_form = poke_client.get('pokemon-form', params = params)
-poke_names = poke_form.get('results', {})
-print(f"Se cargaron {len(poke_names)} pokemones")
+# poke_form = poke_client.get('pokemon-form', params = params)
+# poke_names = poke_form.get('results', {})
+# print(f"Se cargaron {len(poke_names)} pokemones")
 
